@@ -15,14 +15,6 @@ end
 def okay_two_sum?(arr, target)
   return arr if arr.length == 1
   arr.sort!
-  pivot = arr.length/2
-  left = arr.select{ |el| el < pivot }
-  right = arr.reject{ |el| el< pivot }
-  if target
-
-  a = arr.pop
-  arr.sort!
-
 
 end
 
